@@ -25,7 +25,6 @@ public class SecurityConfig {
                         .loginPage("/login")
                         .permitAll()
                 )
-                .httpBasic();
         return http.build();
     }
     @Bean
